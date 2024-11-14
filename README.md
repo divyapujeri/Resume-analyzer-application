@@ -1,45 +1,54 @@
-# Resume-analyzer-application
-Here’s an updated README section that includes the additional features of providing a resume score and recommending certifications:
+# Smart Resume Analyser App
 
-Resume Analyzer Application
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)                 
+[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)   
 
-Overview
+## [Watch Tutorial for this project](https://youtu.be/hqu5EYMLCUw)
+<img src="https://github.com/Spidy20/Smart_Resume_Analyser_App/blob/master/yt_thumb.jpg">
 
-The Resume Analyzer Application is a Python-based tool designed to streamline the resume screening process. Using Natural Language Processing (NLP), the application analyzes resumes, extracts key information like skills, education, and work experience, and evaluates each resume for relevant job-specific attributes. This assists recruiters and hiring managers in identifying suitable candidates quickly and effectively.
+## [Get the project Report, PPT, and Diagrams](https://kushalbhavsar1820.stores.instamojo.com/product/864991/smart-resume-analyzer-ppt-report-and-diagram-c091f/)
+## Source
+- Extracting user's information from the Resume, I used [PyResparser](https://omkarpathak.in/pyresparser/)
+- Extracting Resume PDF into Text, I used [PDFMiner](https://pypi.org/project/pdfminer/).
 
-Technologies
+## Features
+- User's & Admin Section
+- Resume Score
+- Career Recommendations
+- Resume writing Tips suggestions
+- Courses Recommendations
+- Skills Recommendations
+- Youtube video recommendations
 
-	•	Python: Core programming language for the project.
-	•	NLP Libraries: Libraries such as spaCy and NLTK for natural language processing and text analysis.
-	•	PDFMiner: For extracting text from PDF resume files.
-	•	Streamlit: Used to create an interactive web interface for the application.
-	•	Streamlit Tags: Allows for dynamic tagging and selection in the interface, enabling users to specify skills and keywords to focus on.
-	•	Flask: Web framework for backend API functionality (if applicable).
-	•	MySQL or SQLite: Database options for storing and managing resumes and analysis results.
-	•	HTML/CSS: For additional front-end customization.
+## Usage
+- Clone my repository.
+- Open CMD in working directory.
+- Run following command.
+  ```
+  pip install -r requirements.txt
+  ```
+- `App.py` is the main Python file of Streamlit Web-Application. 
+- `Courses.py` is the Python file that contains courses and youtube video links.
+- Download XAMP or any other control panel, and turn on the Apache & SQL service.
+- To run app, write following command in CMD. or use any IDE.
+  ```
+  streamlit run App.py
+  ```
+- `Uploaded_Resumes` folder is contaning the user's uploaded resumes.
+- `Classifier.py` is the main file which is containing a KNN Algorithm.
+- For more explanation of this project see the tutorial on Machine Learning Hub YouTube channel.
+- Admin side credentials is `machine_learning_hub` and password is `mlhub123`. 
 
-Usage
+## Screenshots
 
-	1.	Clone this repository to your local machine.
-	2.	Open the project in Visual Studio.
-	3.	Set up the necessary Python environment and install dependencies with:
+## User side
+<img src="https://github.com/Spidy20/Smart_Resume_Analyser_App/blob/master/sc1.png">
 
-pip install -r requirements.txt
-
-
-	4.	Run the application on a local host using Streamlit:
-
-streamlit run app.py
+## Admin Side
+<img src="https://github.com/Spidy20/Smart_Resume_Analyser_App/blob/master/sc2.png">
 
 
-	5.	Upload resumes in PDF format to analyze, and specify skills or keywords using Streamlit’s tagging feature.
+## Just follow☝️ me and Star⭐ my repository 
 
-Features
-
-	•	PDF Parsing: Extracts text from PDF resumes.
-	•	Skill Extraction: Automatically identifies and extracts skills listed in a resume.
-	•	Experience Analysis: Summarizes relevant job experiences.
-	•	Education Detection: Pulls out education-related information, such as degrees and institutions.
-	•	Resume Scoring: Calculates a score based on how well the resume matches the job requirements.
-	•	Certification Recommendations: Suggests relevant certifications based on the candidate’s skills and areas for improvement.
-	•	Interactive Interface: Streamlit provides an easy-to-use, web-based interface to upload resumes and configure analysis settings.
+# [Buy me a Coffee☕](https://www.buymeacoffee.com/spidy20)
+## [Donate me on PayPal(It will inspire me to do more projects)](https://www.paypal.me/spidy1820)
